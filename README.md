@@ -1,6 +1,6 @@
 # bash-file-permission-mananger-dadhikads-uc
 
-bash-file-permission-mananger-dadhikads-uc is about allowing users to easily manage file permissions by modifying owner, group, and r/w/x permission of a file
+bash-file-permission-mananger-dadhikads-uc is about allowing users to easily manage file permissions by modifying owner, group, and r/w/x permission of a file.
 
 ## How it Works 
 1. file-permission-manager contains a required field -f (file). Input a file to begin the program.
