@@ -75,7 +75,7 @@ fi
 # Perform the select actions based on the users input
 if [ -n "$permission" ]; then
     if [[ "$permission" =~ ^[0-7]{3,4}$ ]]; then
-        chmod "$permission" "$filename"
+        sudo chmod "$permission" "$filename"
         echo "Changed permission of '$filename' to $permission."
     else
         echo "Error: Permission format is incorrect. Please use numbers 3 numbers between 0-7 (e.g. 755 or 660)."
@@ -85,11 +85,12 @@ fi
 
 # Change file owner 
 if [ -n "$owner" ]; then
-    chown "$owner" "$filename"
+    sudo chown "$owner" "$filename"
     echo "Changed owner of '$filename' to $owner." 
 fi
 
 # Change file group 
 if [ -n "$group" ]; then
-    chgrp "$group" "$filename"
+    sudo chgrp "$group" "$filename"
     echo "Changed group access of '$filename' to $group."
+fi
