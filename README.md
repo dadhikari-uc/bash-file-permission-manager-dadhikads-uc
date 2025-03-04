@@ -16,4 +16,4 @@ bash-file-permission-mananger-dadhikads-uc is about allowing users to easily man
 
 -       ./file_permission_script.sh -f [filename] -o [owner] -g [group] -p [755]
 -       ./file_permission_script.sh -f [filename] -o [owner]
--       ./file_permission_script.sh -f [filename] -g [group] -p [755]
+-       ./file_permission_script.sh -f [filename] -g [group]
