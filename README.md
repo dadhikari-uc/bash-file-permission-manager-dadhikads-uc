@@ -12,7 +12,7 @@ bash-file-permission-mananger-dadhikads-uc is about allowing users to easily man
 - -g (group), change the group owner of a file.
 - -h (help), show the help menu of the program works 
 
-### Example 
+### Examples
 
 -       ./file_permission_script.sh -f [filename] -o [owner] -g [group] -p [755]
 -       ./file_permission_script.sh -f [filename] -o [owner]
